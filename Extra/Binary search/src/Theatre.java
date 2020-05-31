@@ -1,10 +1,4 @@
-package com.timbuchalka;
 
-
-
-/**
- * Created by dev on 2/12/2015.
- */
 public class Theatre {
     private final String theatreName;
     private List<Seat> seats = new ArrayList<>();
@@ -46,6 +40,9 @@ public class Theatre {
         System.out.println("There is no seat " + seatNumber);
         return false;
     }
+
+
+
 
     // for testing
     public void getSeats() {
